@@ -756,7 +756,7 @@ ol {
 }
 .banner__item__pic:hover{	
 	cursor: pointer;
-	transition: .8s ease;
+	transition: .5s ease;
 	opacity: 0.3;
 }
 
