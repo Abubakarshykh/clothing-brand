@@ -2061,7 +2061,7 @@ ol {
 .footer__widget .footer__newslatter form input {
 	width: 100%;
 	font-size: 15px;
-	color: #3d3d3d;
+	color: white;
 	background: transparent;
 	border: none;
 	padding: 15px 0;
@@ -2069,11 +2069,11 @@ ol {
 }
 
 .footer__widget .footer__newslatter form input::-webkit-input-placeholder {
-	color: #3d3d3d;
+	color: #faf9f9;
 }
 
 .footer__widget .footer__newslatter form input::-moz-placeholder {
-	color: #3d3d3d;
+	color: white;
 }
 
 .footer__widget .footer__newslatter form input:-ms-input-placeholder {
@@ -2085,7 +2085,7 @@ ol {
 }
 
 .footer__widget .footer__newslatter form input::placeholder {
-	color: #3d3d3d;
+	color: white;
 }
 
 .footer__widget .footer__newslatter form button {
