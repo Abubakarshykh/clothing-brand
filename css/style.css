@@ -167,9 +167,11 @@ ol {
 	color: #ffffff;
 	background: #2c0131;
 	letter-spacing: 4px;
+	outline: none;
 }
 .primary-btn:hover{
 	background-color: #751380;
+	color: white;
 }
 
 .site-btn {
