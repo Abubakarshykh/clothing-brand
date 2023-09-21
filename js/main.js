@@ -6,7 +6,16 @@
     Version: 1.0
     Created: Colorib
 ---------------------------------------------------------  */
+// Cursor_events
 
+const cursor=document.querySelector(".cursor");
+     const cursor2=document.querySelector(".sub_cursor");
+
+
+        document.addEventListener("mousemove", (e)=>{
+            cursor.style.cssText = cursor2.style.cssText = "left:"+e.clientX+"px;top:"+e.clientY+"px;";
+
+        });
 'use strict';
 
 (function ($) {

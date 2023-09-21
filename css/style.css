@@ -35,6 +35,7 @@ body {
 	height: 100%;
 	font-family: "Nunito Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	
 }
 
 h1,
@@ -597,6 +598,9 @@ ol {
 .icon_1{
 	color: #ffffff;
 	font-size: 1.5rem;
+}
+.icon_1:hover{
+	color:#979e9a;
 }
 
 .hero__items {
@@ -3917,4 +3921,63 @@ ol {
 	.categories__text:before {
 		height: 250px;
 	}
+}
+.cursor{
+    z-index: 999;
+    position: fixed;
+    width: 50px;
+    height: 50px ;
+    border: 1px solid #a1a1a7;
+    border-radius: 50%;
+    pointer-events: none;    
+    box-shadow: 0 0 20px #948e97,
+    3px 0 0 #dddad7;
+    /* animation: colors 10s infinite; */
+    transform: translate(-50%,-50%);
+
+    transition: 0.2s ease;
+}
+
+@keyframes colors {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+/* .cursor:before{
+    content: '';
+    background-color: rgb(93, 85, 97);
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    opacity: 0.2;
+    border-radius: 40px;
+} */
+.sub_cursor{
+    z-index: 999;
+    position: fixed;
+    width: 10px;
+    height: 10px ;
+    /* border: 2px solid rgb(15, 7, 90); */
+    background-color: #080808;
+    border-radius: 50%;
+    pointer-events: none;
+    
+    box-shadow: 0 0 20px #7f439c;
+    /* animation: colors 10s infinite; */
+    transform: translate(-50%,-50%);
+
+    transition: 0.1s ease;
+
+}
+
+@keyframes colors {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
